@@ -20,4 +20,4 @@ Route::get('/', [HomeController::class, 'index']);
 
 Route::get('/about', [AboutController::class, 'index']);
 
-Route::get('/article/{id}', [ArticleController::class, 'index']);
+Route::get('/article/{page}', [ArticleController::class, 'index']);
